@@ -1,0 +1,187 @@
+id,object_a,object_b,sentence,aspect,most_frequent_label
+1,its,other models,its fast - forward and rewind work much more smoothly and consistently than those of other models i 've had .,fast - forward,better
+2,its,other models,its fast - forward and rewind work much more smoothly and consistently than those of other models i 've had .,rewind,better
+3,mirror,silver,update : the finish is more `` mirror `` than silver -- and i like it !,finish,better
+4,dvd players,this,i know the saying is `` you get what you pay for `` but at this stage of game dvd players must have better quality than this - there is no excuse .,quality,better
+5,it,1100s,"remote : you can stand it on end ( harder to lose ) , and it 's far better designed than the 1100s .",designed,better
+6,movie discs,extras discs,"but i would expect that , since my movie discs have all played with no problem , the extras discs would , too , without any additional tweaking .",played,same
+7,27 `` screen,17 `` monitor,my jpeg pictures are viewable ( not so sharp and vivid ) on my 27 `` screen but seem not as clear as when i view them on my 17 `` monitor .,jpeg pictures are viewable,worse
+8,2500,2600,the second one was the 2500 which i think is better than the 2600 because it has more features such as karoake which i do use sometimes for parties .,features,better
+9,2500,2600,the second one was the 2500 which i think is better than the 2600 because it has more features such as karoake which i do use sometimes for parties .,karoake,better
+10,$39 ,$125 ,i think a $ 39 dissapointment is better then a $ 125 dissapointment !,dissapointment,better
+11,camera,nikon 4500,this camera has significantly more noise at iso 100 than the nikon 4500 .,noise at iso 100,worse
+12,it,g2,personally i believe it even outperforms the g2 in terms of less haze and astonishingly real colors .,haze,better
+13,it,g2,personally i believe it even outperforms the g2 in terms of less haze and astonishingly real colors .,colors,better
+15,g3,work of art,the g3 looks like a work of art !,looks,same
+16,its,other camera,"its silver magnesium finish is stunning , and the sharp lines and excellent grip are better than any other camera i 've seen .",lines,better
+17,its,other camera,"its silver magnesium finish is stunning , and the sharp lines and excellent grip are better than any other camera i 've seen .",grip,better
+18,this camera,others,another good thing is that this camera seems to introduce much less noise in dark places than others i 've seen .,noise in dark places,better
+19,it,small plastic brick,for `` cool factor '' buffs it looks and feels like a small plastic brick brick and does n't have any wow factor .,looks,same
+20,it,small plastic brick,for `` cool factor '' buffs it looks and feels like a small plastic brick brick and does n't have any wow factor .,feels,same
+21,5 megapixel,powershot s330,"i 've been using a powershot s330 for nearly a year , and wanted to upgrade to a 4 or 5 megapixel camera with a longer zoom , more adjustability , a hot shoe for an external flash , and a remote control .",zoom,better
+22,5 megapixel,powershot s330,"i 've been using a powershot s330 for nearly a year , and wanted to upgrade to a 4 or 5 megapixel camera with a longer zoom , more adjustability , a hot shoe for an external flash , and a remote control .",adjustability,better
+23,canon g3,nikon coolpix 5700,"i looked at both the nikon coolpix 5700 and the canon g3 , and decided on the g3 due both to ergonomics ( much more comfortable to hold and use ) and the price .",comfortable to hold and use,better
+24,canon g3,nikon coolpix 5000,"the canon g3 improves in almost all ways on the g1 and g2 before it , and in fact beats the nikon coolpix 5000 in performance ( picture quality and battery life ) -- which is amazing because the 5000 is a 5 megapixel camera and the canon is a 4 megapixel camera .",performance,better
+25,this camera,nikon 5000,the battery life of this camera is twice that of the nikon 5000 and is better than anything else i 've seen .,battery life,better
+26,this player,ipod,"like it 's predecessor , the quickly revised nx , this player boasts a decent size and weight , a relatively - intuitive navigational system that categorizes based on id3 tags , and excellent sound ( widely known to be better than ipod - not surprising considering the number of years creative has been in the audio peripheral business ) .",sound,better
+27,zen nx,,"the extra improves upon the zen nx with a larger , now - blue backlit screen , which is infinitely better .",screen,better
+28,it,ipod,at 8 ounces it is pretty light but not as light as the ipod .,light,worse
+29,creative labs zen xtra,i - pod,the creative labs  has all the features the i - pod has and if you get if from amazon your only going to pay $ 300 for this great player .,features,same
+30,it,ipod,it also costs a lot less than the ipod .,costs,better
+31,zennx,other battery - powered appliance,"the zennx will keep running for the price of a replacement battery , just like any other battery - powered appliance .",running,same
+32,it,,"the leather case it comes with is pretty nice , similar to a pda style case and does hold and protect it perfectly .",case,better
+33,this little device,ipod,"after playing with this little device , i do n't know why i would look at an ipod with the same space when it costs $ 500 and i got mine for a little more than half that price !",price,better
+34,mine,ipod 30gb,i got mine for $ 160 less than the ipod 30gb ( got an extra $ 30 off for applying for an amazon visa ...,$160 ,better
+35,the player,ipod,first of all the player 's sound quality is superior to the ipod .,sound quality,better
+36,the software,musicmatch,"compared to musicmatch , the software has a better filing system and easier to use .",filing system,better
+37,the software,musicmatch,"compared to musicmatch , the software has a better filing system and easier to use .",use,better
+38,this,ipod,"to keep it short , this is cheaper , and in my opinion a better choice than an ipod .",choice,better
+39,320,128kps,if you decide to encode at 320 you will fit less on this device than someone who encodes at 128kps .,fit,worse
+40,this thing,ipod,"do n't waste your time , engery , resources on this thing , just spend a little more for a far more functional ipod .",spend,worse
+41,it,ipod,"it is small overall , bigger than the ipod , but keep in mind that this is because different , less expensive but not necessarily inferior technology is used in the zx .",technology,better
+42,zx,ipod,"the zx boasts superior sound quality than the ipod , however it compromises a bit of the unit 's size in doing so .",sound quality,better
+43,this,their software,i found this to be a much easier method of transferring my music to the nomad than using their software .,transferring my music,better
+44,nomadexplorer,existing software,"i would recommend replacing the existing software with the `` nomadexplorer , `` which is simpler to use and can be found on the internet .",use,better
+45,them,phones,i would replace them with some better sounding and more comfortable phones .,sounding,worse
+46,them,phones,i would replace them with some better sounding and more comfortable phones .,comfortable,worse
+47,this mp3 player,ipod,with this mp3 player you get much more memory for much less than an ipod .,memory,better
+48,cd player,nomad,the sound quality of my cd player is superior in this setting to the nomad .,sound quality,better
+49,this,,"lol ) and the fact that lots of people have had problems with ipods on windows computers , i realized this is a much better buy .",buy,better
+50,zen xtra,ipod,"the only thing i would complain about the zen xtra is that the controls aren't as easy as the ipod 's , or as `` sexy `` looking .",controls,worse
+51,256 player,30gb,it 's because the 256 player uses flash memory ( smaller / lighter ) and the 30gb uses a hard drive .,flash memory,better
+52,scroll button,models,* scroll button more cumbersome than on earlier models .,cumbersome,worse
+53,160 kbps wma file,source cd,"to my ears , a 160 kbps wma file sounds just as good as the source cd , and the zen xtra sounds just as good as a portable cd player .",sounds,same
+54,hard - drive based player,other devices,11 ) minimal pause between songs - less than that on other devices - good achievement for a hard - drive based player,minimal pause between songs,better
+55,it,walkman,"it 's kinda heavy , kinda like having a walkman .",heavy,same
+56,future,now,"if you are ok paying $ x00 for something that can be used now , but is likely to both get better and cost less in the future then try to determine which device is the lesser of evils for you .",cost,better
+57,this thing,ipod,"sure , this thing is definitely more cost - effective than an ipod .",cost - effective,better
+58,it,piece of crap,the catch is it 's built like a piece of crap .,built,same
+59,nomad zen xtra,ipod,"try before you buy if at all possible : although i am a mac addict now for over a decade and everyone i know has previously bought an ipod , the nomad zen xtra was a far better value and is just as easy to use with regards to both hardware and software interface .",value,better
+60,this,ipod,"this is an excellent player , especially for the price , with features that are comparable to and even excel the ipod .",features,better
+61,it,new - generation ipods,"it 's bigger , but people have grossly exaggerated the size differences - it 's only about half an inch longer and 1/3 inch thicker than the new - generation ipods .",inch,better
+62,nomadmay,mediasource software,"as i mentioned before , the creative mediasource software is actually really robust despite what others have said , though nomadmay still work better .",work,better
+63,nikon,other 4 mp cameras,"with nikon , although picture qualities are as good as any other 4 mp cameras , i 've had the following headaches ;",picture qualities,same
+65,nikon 4300,canon powershot s400,"depending on all the above requirements , i had narrowed down my search to nikon 4300 and canon powershot s400 models .",search,same
+66,this radio,normal radio,"this radio receives fairly decent reception but not nearly as good as a normal radio , but as long as the stations are coming in clearly the phone 's radio should work perfectly .",reception,worse
+67, this phone,typical american phones,this means that there is a good chance that this phone will not break easily like typical american phones .,break,better
+69,flip phones imo,nokia phones,as much as i like nokia phones the flip phones imo are much better because a ) you wont scratch your screens / keys b ) you do nt need to lock your phone all the time to prevent accidently hitting the keys .,screens / keys b,better
+70,flip phones imo,nokia phones,as much as i like nokia phones the flip phones imo are much better because a ) you wont scratch your screens / keys b ) you do nt need to lock your phone all the time to prevent accidently hitting the keys .,keys,better
+71,motorolla t722i,the motorolla phone,the motorolla phone have a horrible battery which lasts about a day ( although i heard that the motorolla t722i has a much longer battery life ) .,battery which lasts about a day ( although i heard that the motorolla t722i has a much longer battery life,better
+72,hands - free speakerphone,motorola phone,"the hands - free speakerphone is quite powerful ( like the motorola phone , i used to own ) .",powerful,same
+73,the phone,other nokias,"in true nokia style , the phone is simple to use and despite its delicate appearance , this little guy is as durable as other nokias i have owned .",durable,same
+74, this phone,motorola,that said this phone does what it does extremely well - way better than anything motorola can produce .,produce,better
+75,the speakerphone, any speakerphone,the speakerphone works better than any speakerphone i 've ever had .,works,better
+77,Mac,other operating systems,"Neither Mozilla , Firefox nor IE perform very well on Mac , being generally slower than on other operating systems .","Mozilla , Firefox nor IE perform",better
+78,Athlon,Coppermine,"Although the Athlon has more L2 cache then the Coppermine , the L2 cache is what allows the Coppermine to not only be competitive with the Athlon at higher clock speeds , but to actually exceed the preformance of the Athlon at higher clockspeeds .",L2 cache,better
+79,256KB of L2 cache,processor,Whereas the Pentium III Coppermine has 256KB of L2 cache that runs at the same speed as the processor .,speed,same
+80,K6 - 3,K6 - 2,"If you compare K6 - 3 's to their `` comparable '' K6 - 2 's , the K6 - 3 's are still a good deal more expensive .",expensive,worse
+82,P4 systems,AMD Athlons,Measured voltage was lower on P4 systems than on AMD Athlons .,Measured voltage,better
+83,AMD processors,Intel processors,The AMD processors are not as reliable as the Intel processors .,reliable,worse
+84,Intel,AMD processors,well I have both Intel and AMD processors in my home .,in my home,same
+85,Intel,AMD x86,"Over the course of the past few months , you 've probably read various complaints against both Intel and AMD x86 platforms .",complaints,same
+86,AMD Duron,C3,"The AMD Duron , costing only slightly more than the C3 , crushes the C3 to dust in every category .",costing,worse
+87,AMD,Intel,While it is true that AMD did not make very good products until they came out with the Athlon and subsequently topped Intel in performance both in MHZ and in benchmark tests .,performance,better
+88,it,Thunderbird,"With .18 micron technology at the core of this chip , and on - die cache like it 's cousin the Thunderbird , it is a force to be recconned with .",on - die cache,same
+89,It,all PCs,"It will also be one of the first chips to use the new DDR RDRAM , ( Double - Data - Rate ) which is effectively twice as fast as the standard RAM being used in nearly all PCs .",as,better
+90,Duron,Celeron,"Yet the Duron will cost the same , if not less , than the Celeron .",cost,same
+91,MII,6x86MX,"Cyrix and AMD needed to hi back so Cyrix released the MII , which had the same FPU on as the 6x86MX and slightly more cache , and AMD with the K6 - 2 .",cache,better
+92,chip from Duron,AMD Athlon,"The chip from Duron uses the Socket A , the same as the AMD Athlon , so when the Athlon prices fall you can buy a 1Ghz , to replace the Duron .",uses the Socket A,same
+93,AMD,Intel,"With AMD 's entry level dual core processor costing more than double that of Intel 's , many consumers simply ca n't afford AMD 's Athlon 64 X2 processors .",costing,worse
+94,It,old computer,"According to the `` Mhz '' rating ( yes , I know this does n't mean jack ) , It should only have been 50 percent faster but one program in particular , encryption software , was running more then three and a half times faster then the old computer ( it shows it 's progress in cps ) ! That is an enormous difference ! And my games could be run at full resolution without that `` choppy '' look ( I think the better video card played a factor here ) .",running,better
+95,Athlon systems,Intel,"The Athlon systems perform much better today , but they do n't have the edge Intel holds on it 's solid chipset .",perform,better
+97,it,Athlon ( 1.4 GHz ),"In fact , it beats the currently fastest Athlon ( 1.4 GHz ) , in a lot of the benchmarks .",benchmarks,better
+98,It,Intel processor,"It usually performs at about the same speed as an Intel processor 400 megahertz ahead ( for example , a 1.4 GH - z Athlon will beet out a 1.8 GH - z Pentium 4 ) .",speed,same
+99,It,1900,"What ? It does n't run at 2 gigahertz ? Nope , it 's an XP ! It actually runs as 70 megahertz more than the 1900 , at 1.67 gigahertz .",runs,better
+100,Intel Pentium 4/2200,AMD Athlon XP 2000,"In encoding an MPEG - 2 film with Pinnacle Studio 7 , the Intel Pentium 4/2200 is clearly faster than the AMD Athlon XP 2000 .",faster,better
+101,Manchester United,Arsenal,"Manchester United and Arsenal are the only clubs who seem to have retained some loyalty amongst their players which is reflected in the fact United have four players who have netted over 75 league goals and Arsenal have Henry , Bergkamp and Pires who have scored over 50 for the Gunners .",loyalty amongst their players,same
+102,they,United,"But at the moment , they simply have more talent in the midfield than United .",talent in the midfield,better
+103,He,Ronaldinho,He is really looking like the next Ronaldinho to me .,looking,same
+104,Man Utd,chelsea,"i 've read with a lot of interest this article , and the comments by many who have contributed.it 's quite interesting to see `` everybody '' crying for Man.utd to regain its past glory.in my own opionion , if the trophy is going back to chelsea there is no problem because they did thier homework well under JM.its not past record that will win back trophies but ambition of players , in any case Man Utd still has quality in the likes of Giggs , Keane , Rio , who , according to me are still better than chelsea 's equivallent . May be they should look at Fergie 's brain , there could be nothing more to impart to his players.Man U 's other problem is lack of team spirit and stereotypical thinking that they are the best , richest club in the world ! . Fergie should spice up his managerial skills , otherwise chelsea will still win trophies.I am a symperthiser of chelsea .",equivallent,better
+105,arsenal,chelsea,"as for arsenal , i think they have a better team than chelsea if all their players are fit .",team,better
+106,United,Chelsea,United has better players in the three R 's than any player from Chelsea but they have the consistency .,players,better
+107,Man Utd,chelsea,The article is spot on if Man Utd had actually signed Gattuso they 'd be better if not necesarily stronger throughout the squad than chelsea .,squad,better
+108,Arsenal,Man United,"Despite Arsenal 's fitness problems and slow start this season , they are much closer to Chelsea than Man United is .",closer to Chelsea,better
+109,Pepsi,Coke,"Regardless of which soda you like better though , Pepsi seems the better value than Coke right now .",value,better
+110,These factories,factory Pepsi has in Bucharest,These factories are double the size of the factory Pepsi has in Bucharest .,size,better
+111,Pepsi,Coke,"Here is my feeling : Pepsi is the lighter taste , where as Coke is much more syrupy .",taste,better
+112,little camera,digital SLR,This little camera produces images that in some cases rival output from a digital SLR .,images,better
+113,F10,D70s,"You 're probably saying "" why did you compare the $ 400 F10 against the $ 900 ( body only ) D70s ? I did so because it shows just how well the F10 performs when up against something like a D - SLR .",performs,better
+114,It,average,"It doesn't react as quickly as some of GM 's transmissions do , but it 's still better than average in terms of kickdown lag .",kickdown lag,better
+115,H3,H2,One area where the H3 improves on the H2 is its interior .,interior,better
+116,This,H2 's,This is a simpler solution than the H2 's : a swing - out spare tire bracket over a liftgate .,solution,better
+117,it,Hummer,"From all accounts , it 's exceptionally capable off road , as a Hummer should be .",capable off road,same
+118,H3,midsize sedan,Hummer claims the H3 is about the same length as a typical midsize sedan and therefore is able to maneuver through urban traffic .,length,same
+119,SD500,Z750,"The SD500 had a more powerful flash as well , though the Z750 's Flash Assist feature makes up for its weaker flash .",flash,better
+120,HP,online retailer,"I do n't suggest ordering it configured with 1 GB as HP is always going to charge more than an online retailer in the business of just selling memory , and it 's simple to install memory so you might as well take that route to save money .",,worse
+121,Inspiron 6000,some 17 - inch wide screens,"In fact , you can work with higher - resolution photographs , more spreadsheet columns , and more tiled documents simultaneously on the Inspiron 6000 than you can on some 17 - inch wide screens .",resolution photographs,better
+122,Inspiron 6000,some 17 - inch wide screens,"In fact , you can work with higher - resolution photographs , more spreadsheet columns , and more tiled documents simultaneously on the Inspiron 6000 than you can on some 17 - inch wide screens .",spreadsheet columns,better
+123,Inspiron 6000,some 17 - inch wide screens,"In fact , you can work with higher - resolution photographs , more spreadsheet columns , and more tiled documents simultaneously on the Inspiron 6000 than you can on some 17 - inch wide screens .",tiled documents,better
+124,2 - GHz Pentium M 760 - equipped review unit,systems equipped with the same processor,"The 2 - GHz Pentium M 760 - equipped review unit did well in our speed tests , earning a WorldBench 5 score of 89 , about 8 percent above the average for systems equipped with the same processor .",WorldBench 5 score,better
+125,iP4200,Canon models,The iP4200 's silver plastic case feels solid and looks less boxy than other recent Canon models .,silver plastic case,better
+126,iP4200,other inkjets,"A direct - print port lets you print straight from a PictBridge - compatible digital camera , though -- like most other inkjets these days -- the iP4200 does n't have a media card slot .",media card slot,same
+127,Portable printers,desk - bound counterparts,"Portable printers cost more than their desk - bound counterparts , but if you have to print while you travel , you wo n't find a better printer than HP 's $ 349 Deskjet 450wbt .",cost,worse
+128,It,5940,It surprised us by printing sharper text and line art than the more expensive 5940 did .,text and line art,better
+129,HP Deskjet 5940,the HP Deskjet 5440,"The $ 100 HP Deskjet 5940 works a lot like its sibling , the HP Deskjet 5440 , but has a more attractive metal cover and costs $ 20 more .",metal cover,worse
+130,HP Deskjet 5940, the HP Deskjet 5440,"The $ 100 HP Deskjet 5940 works a lot like its sibling , the HP Deskjet 5440 , but has a more attractive metal cover and costs $ 20 more .",costs,better
+131,5940,Both models,"Both models come with a pair of ink cartridges that supply four HP Vivera inks between them , but the 5940 accepts larger - capacity cartridges .",cartridges,better
+132,this model,Deskjet 5440,"Like the Deskjet 5440 , this model lets you swap out the pigment black ink cartridge , designed for strong text printing , in favor of an optional photo color cartridge ( adding light cyan and light magenta ) for six - color photo printing .",swap out the pigment black ink cartridge,same
+133,it,other TVs,"While there was plenty of detail , it was n't as sharp ( no pun ) as other TVs I 've seen in this size , but only by a small amount .",sharp,worse
+134,MobiBlu DAH - 1500i,Mixx,"At $ 129.95 list for 1 GB , the Mixx is n't expensive , but there are better choices available in the same price range , such as the MobiBlu DAH - 1500i .",choices,better
+135,H3,H2,"The H3 felt like it lacked get - up - and - go , no doubt , but when I looked at the reported numbers , I found that its 0 - 60 mph times were almost identical to the H2 's",0 - 60 mph times,same
+136,it,tough - guy exterior let on,"In short , it felt more refined than its tough - guy exterior let on",refined,better
+137,It,Chubby Checker,"It has more twist than Chubby Checker , more jiggle than Kirstie Alley",twist,better
+138,H3,larger siblings,"When necessary , however , the H3 can demonstrate Hummer 's famous crawling and climbing abilities just like its larger siblings",crawling and,same
+139,H3,larger siblings,"When necessary , however , the H3 can demonstrate Hummer 's famous crawling and climbing abilities just like its larger siblings",climbing,same
+140,H3,H2,Hummer claims the H3 's acceleration matches the pace of the larger H2 's for most driving conditions,acceleration,same
+141,Casio,Olympus,Casio has been imitating Olympus in the manual area in recent years,manual area,worse
+142,Intel setup,2 GHz AMD,"It 's a clear win for the Intel setup ; it puts up the same or better performance numbers than the 2 GHz AMD , but uses anywhere from 20 - 35percent less power to do it",performance numbers,better
+143,8100,8000,"The 8100 is n't superior to the 8000 in every way : For example , its battery life was actually slightly lower than that of its older sibling : The 8100 lasted a little over 4 hours on one charge in our tests , about a half hour shorter than the TravelMate 8000 we tested last year",battery life,worse
+144,iP4200,iP4000,"In our tests the iP4200 printed documents at breakneck speed , but the quality of its plain - paper output barely improved on that of its predecessor , the iP4000",plain - paper output,same
+145,larger - capacity cartridges, the 5440 's regular cartridges,"Even though the larger - capacity cartridges are the same shape and size as the 5440 's regular cartridges , its firmware wo n't let you use them",shape,same
+146,larger - capacity cartridges, the 5440 's regular cartridges,"Even though the larger - capacity cartridges are the same shape and size as the 5440 's regular cartridges , its firmware wo n't let you use them",size,same
+147,5440,sibling,"The 5440 can , however , use the same optional 13 ml photo cartridge ( $ 25 ) as its sibling ; this cartridge , which you swap with the black cartridge , permits you to print with six colors , by adding light cyan and light magenta",13 ml photo cartridge,same
+149,They,other displays,"They 're slightly more expensive than other displays in the same size range , but , for that extra money , you are said to get a better aesthetic and better performance",expensive,worse
+150,They,other displays,"They 're slightly more expensive than other displays in the same size range , but , for that extra money , you are said to get a better aesthetic and better performance",aesthetic,better
+151,They,other displays,"They 're slightly more expensive than other displays in the same size range , but , for that extra money , you are said to get a better aesthetic and better performance",performance,better
+152,KDS - R60XBR1,other Sony RPTVs,"Aesthetically , the KDS - R60XBR1 shows a family resemblance to other Sony RPTVs",Aesthetically,same
+153,"1,920 - by - 1,080 panels",720p display,"The added detail of the 1,920 - by - 1,080 panels is not as big of a jump from a 720p display as you might expect",jump,same
+155,new model 's 2.5 - inch screen,previous generations,"That said , video looks excellent on the new model 's 2.5 - inch screen , and the thinner profile not to mention new audio capabilities such as high - quality stereo recording makes it more versatile than previous generations",profile,better
+156,new model 's 2.5 - inch screen,previous generations,"That said , video looks excellent on the new model 's 2.5 - inch screen , and the thinner profile not to mention new audio capabilities such as high - quality stereo recording makes it more versatile than previous generations",versatile,better
+157,30 GB model,the previous,"Consider that you can now get the 30 GB model for the same price as the previous - generation 20 GB model , and you have a pretty impressive product",price,same
+158,DAH - 1500i,iPod shuffle,The DAH - 1500i measures just under one cubic inch and weighs a bit over half an ounce a smidgen lighter than the iPod shuffle,weighs,better
+159,iPod nano,6 GB iPod mini,"On our formal tests , the iPod nano actually outperformed the 6 GB iPod mini , with a slightly cleaner signal and better response in the lowest octave than its predecessor",signal,better
+160,iPod nano,6 GB iPod mini,"On our formal tests , the iPod nano actually outperformed the 6 GB iPod mini , with a slightly cleaner signal and better response in the lowest octave than its predecessor",response,better
+161,Firefox,Internet Explorer,"Firefox is not faster than Internet Explorer , except for scripting , but for standards support , security and features , it is a better choice .",choice,worse
+162,g3,nikon coolpix 5700,"after doing a hands - on comparison between the nikon coolpix 5700 and sony dsc - f 717 ( both of which lack the quality , feel , or features of the g3 ) , i ultimately chose the g3 because of its outstanding image quality ( resolution and coloration are superior ) .",image quality,better
+163,g3,nikon coolpix 5700,"after doing a hands - on comparison between the nikon coolpix 5700 and sony dsc - f 717 ( both of which lack the quality , feel , or features of the g3 ) , i ultimately chose the g3 because of its outstanding image quality ( resolution and coloration are superior ) .",resolution,better
+164,g3,nikon coolpix 5700,"after doing a hands - on comparison between the nikon coolpix 5700 and sony dsc - f 717 ( both of which lack the quality , feel , or features of the g3 ) , i ultimately chose the g3 because of its outstanding image quality ( resolution and coloration are superior ) .",coloration,better
+165,g3,sony dsc - f 717,"after doing a hands - on comparison between the nikon coolpix 5700 and sony dsc - f 717 ( both of which lack the quality , feel , or features of the g3 ) , i ultimately chose the g3 because of its outstanding image quality ( resolution and coloration are superior ) .",image quality,better
+166,g3,sony dsc - f 717,"after doing a hands - on comparison between the nikon coolpix 5700 and sony dsc - f 717 ( both of which lack the quality , feel , or features of the g3 ) , i ultimately chose the g3 because of its outstanding image quality ( resolution and coloration are superior ) .",resolution,better
+167,g3,sony dsc - f 717,"after doing a hands - on comparison between the nikon coolpix 5700 and sony dsc - f 717 ( both of which lack the quality , feel , or features of the g3 ) , i ultimately chose the g3 because of its outstanding image quality ( resolution and coloration are superior ) .",coloration,better
+168,nokia,motorola,"i have owned motorola , panasonic and nokia phones over the last 8 years and generally prefer nokia , this phone combines many of the best nokia features , the only feature missing for me is the voice recognition .",general,better
+169,nokia,panasonic,"i have owned motorola , panasonic and nokia phones over the last 8 years and generally prefer nokia , this phone combines many of the best nokia features , the only feature missing for me is the voice recognition .",general,better
+170,phone,samsung phone,"i think the sound quality of this phone is slightly better than my samsung phone , the motorolla t720 series , and the sony ericsson t610 series .",sound quality,better
+171,phone,motorolla t720 series,"i think the sound quality of this phone is slightly better than my samsung phone , the motorolla t720 series , and the sony ericsson t610 series .",sound quality,better
+172,phone,sony ericsson t610 series,"i think the sound quality of this phone is slightly better than my samsung phone , the motorolla t720 series , and the sony ericsson t610 series .",sound quality,better
+173,6610,t610,"the 6610 is still easier to use than the other two phones ( t610 , t720i ) .",use,better
+174,6610,t720i,"the 6610 is still easier to use than the other two phones ( t610 , t720i ) .",use,better
+175,Crusoe,Pentium III,"On average , the Crusoe consumes far less power than a Pentium III and almost nothing compared to AMD Athlon .",general,better
+176,Crusoe,AMD Athlon,"On average , the Crusoe consumes far less power than a Pentium III and almost nothing compared to AMD Athlon .",general,better
+177,the processor,Pentium III,"However , the processor is a bit slower than Pentium III or Athlon , with a 700 MHz TM5400 Crusoe performing on par with a 500 MHz Pentium III .",speed,worse
+178,the processor,Athlon,"However , the processor is a bit slower than Pentium III or Athlon , with a 700 MHz TM5400 Crusoe performing on par with a 500 MHz Pentium III .",speed,worse
+179,C3,AMD,"Like the Crusoe , the C3 consumes less power than AMD or Intel chips , but does not have stellar performance .",power,better
+180,C3,Intel,"Like the Crusoe , the C3 consumes less power than AMD or Intel chips , but does not have stellar performance .",power,better
+181,Duron,Celeron,"In addition , the L1 cache is four times as large in the Duron and T - Bird as it is in the Intel products meaning that the Duron still has more cache than the Celeron .",cache,better
+182,it,T - Bird,The low ( as compared to the T - Bird or PIII ) MHZ setting means that it is a perfect chip to try your operclocking abilities on .,setting means,better
+183,it,PIII,The low ( as compared to the T - Bird or PIII ) MHZ setting means that it is a perfect chip to try your operclocking abilities on .,setting means,better
+184,AMDK6 - 2 and -3,Pentium,"The truth is that previous to AMD 's thunderbird core , the AMDK6 - 2 and -3 lines ran as well , or in the K6 - 3 's case , faster that the Ever - popular Pentium , Pentium MMX , and Pentium II lines .",ran,better
+185,AMDK6 - 2 and -3,Pentium MMX,"The truth is that previous to AMD 's thunderbird core , the AMDK6 - 2 and -3 lines ran as well , or in the K6 - 3 's case , faster that the Ever - popular Pentium , Pentium MMX , and Pentium II lines .",ran,better
+186,AMDK6 - 2 and -3,Pentium II lines,"The truth is that previous to AMD 's thunderbird core , the AMDK6 - 2 and -3 lines ran as well , or in the K6 - 3 's case , faster that the Ever - popular Pentium , Pentium MMX , and Pentium II lines .",ran,better
+189,Cott,Pepsi,"Cott ( COTT : Research , Estimates ) , the largest maker of private label sodas , trades at 26 times 2002 earnings estimates but it 's growth prospects for this year and next are better than Coke and Pepsi .",growth prospects,better
+190,Cott,Coke,"Cott ( COTT : Research , Estimates ) , the largest maker of private label sodas , trades at 26 times 2002 earnings estimates but it 's growth prospects for this year and next are better than Coke and Pepsi .",growth prospects,better
+191,Coke,Pepsi,The main apprehension may be that the price of Coke is twice the price of locally produced colas and a little higher than Pepsi .,price,worse
+192,Coke,locally produced colas,The main apprehension may be that the price of Coke is twice the price of locally produced colas and a little higher than Pepsi .,price,worse
+193,L2000,V2335,Fan noise on both the L2000 and V2000Z is noticeably louder and more frequent than on the V2335 .,Fan noise,worse
+194,V2000Z,V2335,Fan noise on both the L2000 and V2000Z is noticeably louder and more frequent than on the V2335 .,Fan noise,worse
+195,it,MSI Mega Player 521,"The relatively bulky plastic body measures 3.4 by 1.6 by 1.2 inches and weighs 2.6 ounces with the battery , making it heavier than the MSI Mega Player 521 and the RCA Lyra RD2212",heavier,worse
+196,it,RCA Lyra RD2212,"The relatively bulky plastic body measures 3.4 by 1.6 by 1.2 inches and weighs 2.6 ounces with the battery , making it heavier than the MSI Mega Player 521 and the RCA Lyra RD2212",heavier,worse
