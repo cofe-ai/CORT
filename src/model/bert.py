@@ -7,7 +7,7 @@ import transformers as tfs
 from transformers import BertModel,BertTokenizer
 import torch.nn as nn
 import torch
-from src.utils.get_cls_mask import get
+from src.utils.get_cls_mask import get_rep_cls_and_mask
 
       
 class BertClassificationModel(nn.Module):
@@ -34,8 +34,8 @@ class prompt_bert(nn.Module):
         self.dropout = nn.Dropout(p=0.1)
 
     def forward(self, input_ids, attention_mask, index_mask):
-        bert_output = self.bert(input_ids, attention_mask = attention_mask)
-        bert_cls_hidden_state, bert_mask_hidden_state = get(bert_output, index_mask, input_ids)
+        bert_output = self.bert(input_ids, attention_mask=attention_mask)
+        bert_cls_hidden_state, bert_mask_hidden_state = get_rep_cls_and_mask(bert_output, index_mask, input_ids)
         bert_state = torch.cat((bert_cls_hidden_state, bert_mask_hidden_state), 1)
         state = self.dropout(bert_state)
         linear_output = self.dense(state)
@@ -55,13 +55,13 @@ class BertcomModel(nn.Module):
 
     def forward(self, input_ids, attention_mask, input_ids1, attention_mask1, index_mask, index_mask1):
         bert_output = self.bert(input_ids, attention_mask=attention_mask)
-        bert_cls_hidden_state, bert_mask_hidden_state = get(bert_output, index_mask, input_ids)
+        bert_cls_hidden_state, bert_mask_hidden_state = get_rep_cls_and_mask(bert_output, index_mask, input_ids)
         bert_state = torch.cat((bert_cls_hidden_state, bert_mask_hidden_state), 1)
 
         linear_output = self.dense(bert_state)
 
         bert_output1 = self.bert(input_ids1, attention_mask=attention_mask1)
-        bert_cls_hidden_state1, bert_mask_hidden_state1 = get(bert_output1, index_mask1, input_ids1)
+        bert_cls_hidden_state1, bert_mask_hidden_state1 = get_rep_cls_and_mask(bert_output1, index_mask1, input_ids1)
         bert_state1 = torch.cat((bert_cls_hidden_state1, bert_mask_hidden_state1),1)
         linear_output1 = self.dense(bert_state1)
         linear_output3 = self.dense2(bert_mask_hidden_state)
@@ -82,13 +82,13 @@ class BertcomDModel(nn.Module):
 
     def forward(self, input_ids, attention_mask, input_ids1, attention_mask1, index_mask, index_mask1):
         bert_output = self.bert(input_ids, attention_mask=attention_mask)
-        bert_cls_hidden_state, bert_mask_hidden_state = get(bert_output, index_mask, input_ids)
+        bert_cls_hidden_state, bert_mask_hidden_state = get_rep_cls_and_mask(bert_output, index_mask, input_ids)
         bert_state = torch.cat((bert_cls_hidden_state, bert_mask_hidden_state), 1)
         state = self.dropout(bert_state)
         linear_output = self.dense(state)
 
         bert_output1 = self.bert(input_ids1, attention_mask=attention_mask1)
-        bert_cls_hidden_state1, bert_mask_hidden_state1 = get(bert_output1, index_mask1, input_ids1)
+        bert_cls_hidden_state1, bert_mask_hidden_state1 = get_rep_cls_and_mask(bert_output1, index_mask1, input_ids1)
         bert_state1 = torch.cat((bert_cls_hidden_state1, bert_mask_hidden_state1), 1)
         state = self.dropout(bert_state1)
         linear_output1 = self.dense(state)
@@ -106,11 +106,11 @@ class Bertcom2Model(nn.Module):
 
     def forward(self, input_ids, attention_mask, input_ids1, attention_mask1, index_mask, index_mask1):
         bert_output = self.bert(input_ids, attention_mask=attention_mask)
-        bert_cls_hidden_state, bert_mask_hidden_state = get(bert_output, index_mask, input_ids)
+        bert_cls_hidden_state, bert_mask_hidden_state = get_rep_cls_and_mask(bert_output, index_mask, input_ids)
         linear_output = self.dense(bert_mask_hidden_state)
 
         bert_output1 = self.bert(input_ids1, attention_mask=attention_mask1)
-        bert_cls_hidden_state1, bert_mask_hidden_state1 = get(bert_output1, index_mask1, input_ids1)
+        bert_cls_hidden_state1, bert_mask_hidden_state1 = get_rep_cls_and_mask(bert_output1, index_mask1, input_ids1)
         linear_output1 = self.dense(bert_mask_hidden_state1)
 
         linear_output3 = self.dense2(bert_mask_hidden_state)
