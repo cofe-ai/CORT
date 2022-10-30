@@ -60,7 +60,8 @@ else:
           
 if __name__ == "__main__":
     _init_(FLAGS.seed)
-    maxn = 0
+    max_value = 0
+    min_value = 100000
     if FLAGS.name_model == 'bert':
         classifier_model = prompt_bert().to(device)
     elif FLAGS.name_model == 'roberta':
@@ -140,9 +141,14 @@ if __name__ == "__main__":
         print("valid")
         print(dict_weighted['f1'])
         print(dict_weighted['c_m'])
-        if dict_weighted['f1'] > maxn:
-            maxn = dict_weighted['f1']
-            torch.save(classifier_model, "%s/%s.pkl" % (dirss, epoch))
+        if FLAGS.early_stop == 'loss':
+            if total_loss < min_value:
+                torch.save(classifier_model, "%s/%s.pkl" % (dirss, FLAGS.name_model))
+                min_value = total_loss
+        else:
+            if dict_weighted['f1_macro'] > max_value:
+                torch.save(classifier_model, "%s/%s.pkl" % (dirss, FLAGS.name_model))
+                max_value = dict_weighted['f1']
         writer.add_scalars("add_scalars/trigonometric", {'train_loss' : total_loss / batch_count, 'valid_acc': dict_weighted['acc'],
                                                          'valid_f1': dict_weighted['f1']}, epoch)
         writer.add_scalars("add_scalars/trigonometric", {'valid_micro' : dict_weighted['f1_micro'], 'valid_acc': dict_weighted['acc'],
@@ -178,8 +184,8 @@ if __name__ == "__main__":
               + 'f1_micro: ' + str(dict_weighted['f1_micro']) + " | " + 'f1_macro: ' + str(dict_weighted['f1_macro']))
         print('Better-f1:' + str(F1[1]) + " | " + 'Better-pre:' + str(Pre[1]) + " | " + 'Better-rec:' + str(Rec[1])
               + " | " + 'Worse-f1:' + str(F1[2]) + " | " + 'Worse-pre:' + str(Pre[2]) + " | " + 'Worse-rec:'
-              + str(Rec[2]) + " | " + 'Same-f1:' + str(F1[0]) + " | " + 'Worse-pre:' + str(
-            Pre[0]) + " | " + 'Worse-rec:' + str(Rec[0]))
+              + str(Rec[2]) + " | " + 'Same-f1:' + str(F1[0]) + " | " + 'Same-pre:' + str(
+            Pre[0]) + " | " + 'Same-rec:' + str(Rec[0]))
         total_loss = 0
         writer.close()
         test_inputs , test_targets = get_data_prompt(FLAGS.data_path+"Kessler_all_reverse_test.csv"
@@ -214,7 +220,7 @@ if __name__ == "__main__":
               + 'f1_micro: ' + str(dict_weighted['f1_micro']) + " | " + 'f1_macro: ' + str(dict_weighted['f1_macro']))
         print('Better-f1:' + str(F1[1]) + " | " + 'Better-pre:' + str(Pre[1]) + " | " + 'Better-rec:' + str(Rec[1])
               + " | " + 'Worse-f1:' + str(F1[2]) + " | " + 'Worse-pre:' + str(Pre[2]) + " | " + 'Worse-rec:'
-              + str(Rec[2]) + " | " + 'Same-f1:' + str(F1[0]) + " | " + 'Worse-pre:' + str(
-            Pre[0]) + " | " + 'Worse-rec:' + str(Rec[0]))
+              + str(Rec[2]) + " | " + 'Same-f1:' + str(F1[0]) + " | " + 'Same-pre:' + str(
+            Pre[0]) + " | " + 'Same-rec:' + str(Rec[0]))
         
 
