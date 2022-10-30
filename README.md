@@ -28,11 +28,11 @@ For CameraReview dataset, you can directly run the run_cort.py.  If you want to 
 
 If you use GPU:
 ```
-CUDA_VISIBLE_DEVICES=0 python run_cort.py  --name_model roberta  --learning_rate  1e-5   --epochs 100  --t1 1.0  --t2 1.0 --t3 1.0 --special_token '</s>'  --mask '<mask>'  --early_stop loss 
+CUDA_VISIBLE_DEVICES=0 python run_cort.py  --name_model roberta  --learning_rate  1e-5   --epochs 200  --t1 0.5  --t2 0.5 --t3 1.0 --special_token '</s>'  --mask '<mask>'  --early_stop value
 ```
 If you use CPU:
 ```
-python run_cort.py  --name_model roberta  --learning_rate  1e-5   --epochs 100  --t1 1.0  --t2 1.0 --t3 1.0 --special_token '</s>'  --mask '<mask>'  --early_stop loss --use_gpu 0
+python run_cort.py  --name_model roberta  --learning_rate  1e-5   --epochs 200  --t1 0.5  --t2 0.5 --t3 1.0 --special_token '</s>'  --mask '<mask>'  --early_stop value  --use_gpu 0
 ```
 The loss of train process, f1_weighted of valid process, detailed results of test process on original test-data and reversal test-data each epoch will be shown on terminal. Training model all epochs, the best model(--early_stop loss: the minimum loss on training dataset, --early_stop value: the highest f1-weighted on valid dataset.) will be save on 'save_model/'. When we save the best model, we can't use the result on test dataset, and we show the result on test data only to make easier to see the test results on each epoch. 
 ### Train PLM Fine-Tuning
@@ -49,12 +49,12 @@ The information is similar to ```Train CORT models```.
 
 If you use GPU:
 ```
-CUDA_VISIBLE_DEVICES=0 python run_plm_prompt.py  --name_model roberta  --learning_rate  1e-5   --epochs 200    --special_token '</s>'  --mask '<mask>'  
+CUDA_VISIBLE_DEVICES=0 python run_plm_prompt.py  --name_model roberta  --learning_rate  1e-5   --epochs 200    --special_token '</s>'  --mask '<mask>'  --early_stop loss
 ```
 
 If you use CPU:
 ```
-python run_plm_prompt.py  --name_model roberta  --learning_rate  1e-5   --epochs 200    --special_token '</s>'  --mask '<mask>' --use_gpu 0  
+python run_plm_prompt.py  --name_model roberta  --learning_rate  1e-5   --epochs 200    --special_token '</s>'  --mask '<mask>' --use_gpu 0  --early_stop loss
 ```
 The information is similar to ```Train CORT models```.
 
