@@ -73,7 +73,7 @@ if __name__ == "__main__":
         plm_params = list(map(id, classifier_model.bert.parameters()))
         plm = classifier_model.bert.parameters()
     elif FLAGS.name_model == 'roberta':
-        classifier_model = robertaCoModel().to(device)
+        classifier_model = roberta().to(device)
         plm_params = list(map(id, classifier_model.Roberta.parameters()))
         plm = classifier_model.Roberta.parameters()
     else: 
