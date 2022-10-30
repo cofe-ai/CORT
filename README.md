@@ -59,10 +59,10 @@ python run_plm_prompt.py  --name_model roberta  --learning_rate  1e-5   --epochs
 The information is similar to ```Train CORT models```.
 
 ### Reproduce our results
-1. Download the [trained model](https://drive.google.com/drive/folders/1DQAjyXNeEfl3dzNGRNcfSTFdqwqLljo2?usp=sharing). Save the ```.pkl``` in ```./saved_model/roberta```
+1. Download the [trained model](https://drive.google.com/drive/folders/1DQAjyXNeEfl3dzNGRNcfSTFdqwqLljo2?usp=sharing). Save the ```.pkl``` in ```./saved_model/roberta/```
 2. Run the code
 ```
-python test.py --path save_model/roberta --name_model roberta --double 1
+python test.py --path save_model/roberta/ --name_model roberta --double 1
 ```
 
 
