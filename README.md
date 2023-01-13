@@ -4,6 +4,9 @@ This is the source code of EMNLP'22 paper "CORT: A New Baseline for Comparative 
 
 The CORT model contains two opinion channels , and a comparative module. Each channel includes three cells: prompter, encoder, and classifier. Given an input like (text, target t1, target t2, aspect), the prompter generates a template like “[target t1] is [MASK] than [target t2] in [aspect]”. Then the encoder encodes the original input text and the template to get a global representation and the opinion representation . Lastly, the comparative opinion is predicted by a classifier. Mirror channel and primary channel share the same configurations with the only difference on the generated template, where the two targets are swapped. See our [paper](https://openreview.net/forum?id=r0U2xA4SZER) for more details.
 <p align="center"><img width="95%" src="imgs/cort.jpg" /></p>
+## Additional Tabel4
+
+<p align="center"><img width="95%" src="imgs/table4_additional.png" /></p>
 
 ## Table of Contents
 - [Setup](#Setup)
